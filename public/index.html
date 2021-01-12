@@ -1,9 +1,178 @@
 <!DOCTYPE html>
+
 <html lang="eng">
+
 <head>
     <meta charset="UTF-8">
-  <title>Hello</title>
-  </head>
-  <body>
-    hellllloooo test
-  </body> </html>
+    <meta name="description" content="JORDAN BERDOVICH">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="fade-in">
+        <div class="navigation-bar flex middle-xs">
+            <nav class="end-xs">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+<!--ABOUT ME-->
+    <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(&quot;img/hero-image.jpg&quot;); height: 521px;">
+    <div class="hero-text ">
+        <h1>JORDAN BERDOVICH</h1>
+        <p>Put in something here</p>
+    </div>
+</div>
+</header>
+
+<!--ABOUT ME-->
+<div class="wrapper">
+    <main>
+        <section class="intro" id="about-me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h2 class="section-title">About text</h2>
+                    </div>
+                </div>
+                <div class="row margin-bottom ">
+                    <div class="col-md">
+                        <p class="highlight">This is where I put an about me page</p>
+                        <p class="author">- Jordan Berdovich</p>
+                    </div>
+                    <div class="col-md">
+                        <p> Paragraph 1</p>
+                    </div>
+                    <div class="col-md">
+                        <p> Paragraph 2</p>
+                    </div>
+                </div>
+                <div class="row team center-xs">
+                    <div class="col-md">
+                        <div class="hover-outer-box">
+                            <img src="img/Romi-Kobe.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Person 1</h3>
+                                    <p>Person 1 stuff</p>
+                                    <a href="#!" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon"></a> <a href="#!" target="blank" rel="noopener"><img src="img/twitter-icon.svg" class="team-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="team-name">Person 1<br><span class="position">Position</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!--CONTACT BOX-->
+        <section class="contact" id="contact">
+          <div class="container">
+          <div class="row">
+          <div class="col-md center-xs">
+                <h2 class="section-title">Contact</h2>
+          </div>
+          </div>
+          <div class="row margin-bottom-small center-xs">
+            <div class="col-md">Location<br>Chicago, IL</div>
+            <div class="col-md">Email<br>jordanberdovich@gmail.com</div>
+          </div>
+          <form action="">
+            <div class="row margin-bottom-small center-xs">
+            <div class="col-md padding-small">
+                <div class="row">
+                <div class="col-md">
+                    <input placeholder="Enter Your Name" type="text" name="" value="" class="margin-bottom-small">
+                    <input placeholder="Enter Your Email" type="email" name="" value="">
+                </div>
+                </div>
+                </div>
+            <div class="col-md padding-small">
+                <textarea placeholder="Your Message" name="" rows="8" class="margin-bottom-small"></textarea>
+                <input type="submit" value="Submit">
+            </div>
+            </div>
+          </form>
+        </div>
+     </section>
+  </main>
+
+<!-- moment.js via CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/dashboard.app.js"></script>
+
+</div>
+
+
+<!--FOOTER-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md center-xs">
+        <!--  <img src="img/logo-footer.svg" class="margin-bottom" style="max-width: 150px;"-->
+      </div>
+    </div>
+
+
+<!--LINKS IN FOOTER-->
+<div class="row margin-bottom-small">
+  <div class="col-md-4">
+    <h3>Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </div>
+      </div>
+
+            <div class="row">
+                <div class="col-md ">
+                    <p>Follow me on </p>
+                    <p>  <a href="https://www.linkedin.com/in/jordanberdovich/" target="_blank">
+                      <span class="icon">
+                        <svg viewBox="0 50 700 700" >
+                          <path fill="#828282" d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683
+                          C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z
+                          M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615
+                          c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915
+                          s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z"/>
+                         </svg>
+                         </span>
+                         </a>
+                         </p>
+                     </div>
+                    </div>
+                  </div>
+</footer>
+
+<!--SECODARY FOOTER-->
+<div class="row secondary-footer">
+        <div class="col-md">
+         <p>Thank you for viewing!</p>
+     </div>
+ </div>
+
+
+
+ <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer=""></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="js/script.js" defer=""></script>
+</body>
+
+</html>
